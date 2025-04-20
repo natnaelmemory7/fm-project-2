@@ -1,0 +1,12 @@
+
+# Ignore specific markdown files
+README-template.md
+README.md
+styleguide.md
+
+# Ignore folders
+/assets/
+/build/
+/design/
+/node_modules/
+

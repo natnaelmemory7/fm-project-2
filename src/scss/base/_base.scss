@@ -1,0 +1,25 @@
+@use  "config" as *;
+
+ body {
+  font-size: 1.6rem;
+  background-color: $color-green-light;
+  color: $color-gray-medium;
+  font-family : $ff--body ;
+  font-weight: $fw-medium;
+  line-height: 1.5;
+ }
+
+ a {
+   text-decoration: none;
+   
+ }
+
+ ul,
+ ol {
+   list-style: none;
+ }
+
+
+ img {
+  width: 100%;
+ }

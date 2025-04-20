@@ -1,0 +1,78 @@
+
+//===============
+
+//font-stack
+
+//==============
+
+
+$ff--body : 'Karla', sans-serif;
+
+
+
+//=================
+
+// font-weight
+
+//==================
+
+$fw-medium : 400;
+$fw-bold : 700;
+
+
+
+//=====================
+
+// descriptive color
+
+//=====================
+
+
+$color-white : hsl(0, 0%, 100%);
+
+$color-gray-medium: hsl(186, 15%, 59%);
+
+$color-gray-darker: hsl(187, 24%, 22%);
+
+$color-green-light : hsl(148, 38%, 91%);
+
+$color-green-medium : hsl(186, 15%, 59%);
+
+$color-red: red;
+
+
+
+//====================
+
+// usage color
+
+//===================
+
+
+
+
+//===========================
+
+// font-size  desktop
+
+//===========================
+
+
+$font-size--sm : 1.3rem;  // button  and navlink    footer-li-link footer-list header
+$font-size--md  : 1.6rem;  // paragraph
+$font-size--lg  : 2.8rem;  // card header
+$font-size--xlg  : 3.8rem; // breadcrumb  header 
+$font-size--xxlg : 5.2rem;  // hero header  / card section header
+
+@media (max-width: 768){
+    $font-size--xxlg : 4.8rem;
+}
+
+
+
+$fs-nav-link : $font-size--sm;
+$fs-btn      : $font-size--sm;
+$fs-p        : $font-size--md;
+$fs-sec-header : $font-size--xxlg;
+$fs-hero-header : $font-size--xxlg;
+$font-size-breadcrumb : $font-size--xlg;

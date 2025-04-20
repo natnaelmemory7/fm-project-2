@@ -1,0 +1,23 @@
+
+.list {
+  
+    box-shadow: 10px 6px 6px #333;
+}
+
+.list--footer {
+    .link.link--list {
+        background-color: red;
+        display: block;
+    }
+    
+    .link.link--list:hover {
+        background-color: white;
+    }
+}
+
+.list.list--nav {
+    box-shadow: none;
+}
+
+
+

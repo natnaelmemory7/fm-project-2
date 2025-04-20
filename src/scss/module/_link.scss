@@ -1,0 +1,21 @@
+
+.link {
+    padding: 1rem 1.8rem;
+    border: 1px solid gray;
+    border-radius: 1rem;
+    background-color: black;
+    color: white;
+    display: inline-block
+}
+
+.link:hover {
+    background-color: #ccc;
+    color: #333;
+} 
+
+
+.link.link--logo {
+    background-color: white;
+}
+
+

@@ -1,0 +1,13 @@
+
+@use  "../base/config" as *;
+
+.title {
+    
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: capitalize;
+    font-size: 2rem;
+    color: $color-gray-darker;
+    padding: 1rem;
+
+}
+
