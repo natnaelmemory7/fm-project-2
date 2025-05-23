@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap" rel="stylesheet">
+            
+        <title>contact</title>
+        <link rel="stylesheet" href="css/style.css">
+        <style>
+      
+
+    /* .input-query__inner label {
+        display: flex;
+        border: 2px solid black;
+        width: 300px;
+        margin-bottom: 1rem;
+    } */
+        </style>
+</head>
+<body>
+    <div class="container">
+
+        <main class="main">
+        
+        <form action="index.php" id="myForm">
+           
+            <fieldset>
+                <legend>Contact us</legend>
+                <div class="input-name">
+
+                    <div class="input-name__inner">
+                        <label for="first-name">First name *</label>
+                        <input class="input" type="text"  name="first-name">
+                        <span class="error hidden">first name is required</span>
+                    </div>
+    
+    
+                    <div class="input-name__inner">
+                        <label for="last-name">Last name</label>
+                        <input  class="input" type="text"  name="last-name">
+                        <span class="error hidden">Last name is required</span>
+                    </div>
+                    
+    
+                </div>
+    
+                <div class="input-email">
+                    <label for="email">Email</label>
+                    <input  class="input" type="email" name="email">
+                    <span class="error hidden">Email is required</span>
+                </div> 
+    
+                <div class="input-query">
+    
+                    <label for="">Query type</label>
+    
+                    <div class="input-query__inner for-error">
+  
+                        <label class="label" for="general-enquiry">
+                          <input  class="input" type="radio" id="general-enquiry" name="query-type" value="general">
+                          General enquiry
+                        </label>
+                      
+                        <label class="label" for="support-request">
+                          <input  class="input" type="radio" id="support-request" name="query-type" value="support">
+                          Support request
+                        </label>
+                      
+                      </div>
+    
+                    <span class="error hidden">query type is required</span>
+    
+                </div>
+    
+                
+                <div class="input-message">
+    
+                    <label for="message">Message</label>
+                    <textarea  class="input"  name="message" id="message"></textarea>
+                   <span class="error hidden"> This field is required</span>
+                </div>
+    
+                
+                <div class="input-agree">
+                    <div class="input-agree__inner for-error-2">
+                    <input class="input" type="checkbox" name="agree" unchecked id="agree"> 
+                    <label for="agree"> I consent to being contacted by the team
+                        </label>
+                    </div>
+                    <span class="error hidden"> To submit this form, please consent to being contacted</span>
+                </div>
+    
+                <button  id="btn" type="submit">submit</button>
+
+            </fieldset>
+
+        </form>
+          
+        </main>
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
+<!-- 
+query type
+
+General Enquiry
+
+Support request -->
